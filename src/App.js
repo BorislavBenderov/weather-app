@@ -29,7 +29,7 @@ function App() {
   console.log(weather);
 
   return (
-    <div className="App">
+    <div className="app">
       <main>
         <div className="search__box">
           <form id="time" onSubmit={onSubmit} >
@@ -40,7 +40,6 @@ function App() {
               placeholder="Search"
               value={value}
               onChange={changeHandler} />
-            <button>Go</button>
           </form>
         </div>
         {typeof weather.main != 'undefined' ?
