@@ -1,0 +1,11 @@
+.App {
+    position: absolute;
+    left: 50%;
+    display: inline-block;
+    text-align: center;
+    background-color: brown;
+}
+
+:root {
+    background-color: blue;
+}
